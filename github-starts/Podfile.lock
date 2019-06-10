@@ -1,0 +1,24 @@
+PODS:
+  - Kingfisher (5.5.0)
+  - Nimble (8.0.1)
+  - Quick (2.1.0)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.0)
+  - Nimble
+  - Quick
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Kingfisher
+    - Nimble
+    - Quick
+
+SPEC CHECKSUMS:
+  Kingfisher: 6fe5e67a90fd335e49b0f5c075ff55ac5ebedd94
+  Nimble: 45f786ae66faa9a709624227fae502db55a8bdd0
+  Quick: 4be43f6634acfa727dd106bdf3929ce125ffa79d
+
+PODFILE CHECKSUM: bc648a2b010f9a39aba64c79dc10f8a4ff05cf6a
+
+COCOAPODS: 1.5.3
