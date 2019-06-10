@@ -6,8 +6,12 @@
 //  Copyright © 2019 Faganello. All rights reserved.
 //
 
-import UIKit
+import Quick
+import Nimble
+@testable import github_starts
 
-class BestRepositorySpec: NSObject {
-
+class BestRepositorySpec: QuickSpec {
+    override func spec() {
+        
+    }
 }
