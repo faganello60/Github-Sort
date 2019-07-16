@@ -26,7 +26,7 @@ class GithubEndPointSpec: QuickSpec {
                 }
                 
                 it("Testing HTTP Method") {
-                    expect(endpoint.httpMethod.rawValue).to(equal("GET"))
+                    expect(endpoint.httpMethod).to(equal(HTTPMethod.get))
                 }
             }
         }

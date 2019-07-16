@@ -22,7 +22,7 @@ enum NetworkResponse:String,Error {
     case unableToDecode = "We could not decode the response."
 }
 
-extension NetworkResponse:Equatable {
+extension NetworkResponse: Equatable {
     static func == (lhs: NetworkResponse, rhs: NetworkResponse) -> Bool {
             return lhs.rawValue == rhs.rawValue
     }
